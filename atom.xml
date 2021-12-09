@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gexiaya.github.io</id>
     <title>阁下脸厚心黑</title>
-    <updated>2021-12-09T08:14:22.800Z</updated>
+    <updated>2021-12-09T09:47:16.912Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gexiaya.github.io"/>
     <link rel="self" href="https://gexiaya.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://gexiaya.github.io/images/avatar.png</logo>
     <icon>https://gexiaya.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 阁下脸厚心黑</rights>
+    <entry>
+        <title type="html"><![CDATA[Cmd Markdown 语法（从入门到入土）]]></title>
+        <id>https://gexiaya.github.io/post/biao-ti/</id>
+        <link href="https://gexiaya.github.io/post/biao-ti/">
+        </link>
+        <updated>2021-12-09T08:44:28.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="markdown是一种轻量级标记语言-md语言主要也是为了方便我们撰写博客虽然有编辑器但这们语法本身就不难我们学在手里何乐而不为呢废话不多说我们进入教程">Markdown是一种轻量级标记语言。md语言主要也是为了方便我们撰写博客，虽然有编辑器，但这们语法本身就不难，我们学在手里，何乐而不为呢？废话不多说，我们进入教程</h2>
+<h3 id="一字体的加斜加粗">一，字体的加斜加粗</h3>
+<p>/* 代表斜体<br>
+**  代表粗体<br>
+***  代表我都要</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[钢化膜sa]]></title>
         <id>https://gexiaya.github.io/post/gang-hua-mo-sa/</id>
@@ -89,15 +102,6 @@
         </link>
         <updated>2021-12-09T06:01:51.000Z</updated>
         <content type="html"><![CDATA[<p>案发SF</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[年年是智障]]></title>
-        <id>https://gexiaya.github.io/post/nian-nian-shi-zhi-zhang/</id>
-        <link href="https://gexiaya.github.io/post/nian-nian-shi-zhi-zhang/">
-        </link>
-        <updated>2021-12-08T09:26:23.000Z</updated>
-        <content type="html"><![CDATA[<p>哈哈哈哈哈哈哈哈哈哈</p>
 ]]></content>
     </entry>
 </feed>
