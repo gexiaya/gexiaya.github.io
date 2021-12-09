@@ -1890,10 +1890,10 @@ blockquote:before {
   font-weight: bold;
 }
 body {
-      background-color: #eee;
+      background-color: #ced4da;
     }
     .nav-toggle .line {
-      background-color: #eee !important;
+      background-color: #ced4da !important;
     }.header {
         width: 960px;
         margin: 0 auto;
@@ -1929,7 +1929,7 @@ body {
     .node-title::before {
       background-color: #555;
     }.bg-color {
-      background-color: #fff;
+      background-color: #f8f9fa;
     }a {
       color: #555;
     }
@@ -1953,11 +1953,15 @@ body {
     .next-md-body a:hover, .friends-box a:hover {
       color: #222;
       border-bottom-color: #222;
-    }
-      .nav-item a {
-        color:  #555;
+    }.nav-item a {
+        color: #555;
+      }
+      .nav-item-active a {
+        color: #555;
+        border-bottom: 1px solid #555 !important;
       }.nav-item a:hover {
         color: #222;
+        border-bottom: 1px solid #222 !important;
       }.nav-item-active {
       background: #f9f9f9;
     }
@@ -1965,7 +1969,15 @@ body {
     .nav-item:hover {
       background: #f9f9f9;
       color: rgba(0, 0, 0, 0.98);
-    }.markdownIt-TOC a {
+    }.muse .sidebar, .mist .sidebar {
+        right: 0 !important;
+        left: auto !important;
+      }
+      .drawer-box {
+        right: 30px !important;
+        left: auto !important;
+      }
+      .markdownIt-TOC a {
       color: #eee;
       border-bottom-color: #eee;
     }.markdownIt-TOC a:hover {
