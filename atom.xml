@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gexiaya.github.io</id>
     <title>阁下脸厚心黑</title>
-    <updated>2021-12-10T05:56:14.547Z</updated>
+    <updated>2021-12-10T08:22:33.382Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gexiaya.github.io"/>
     <link rel="self" href="https://gexiaya.github.io/atom.xml"/>
@@ -29,16 +29,17 @@
 ~~文字~~ 代表 <s>给文字添加删除线</s></li>
 </ul>
 <h3 id="二基本语法-标题元素">二，基本语法--标题元素</h3>
-<p>标题共分为六种格式（没有七号标题，只有h1--h6)：<br>
-1.第一种方法（ # 与文字之间添加一个空格，不然没效果）：<br>
+<p>标题共分为六种格式（没有七号标题，只有h1--h6)：</p>
+<ul>
+<li>食用方法（最后一个 # 与文字之间添加一个空格，不然没效果）：<br>
 # 文字  为一号标题<br>
 ## 文字 为二号标题<br>
 ### 文字 为三号标题<br>
 #### 文字 为四号标题<br>
 ##### 文字 为五号标题<br>
-###### 文字 为六号标题</p>
-<ul>
-<li>具体显示效果如下：</li>
+###### 文字 为六号标题</li>
+<li>具体显示效果如下：<br>
+<img src="https://gexiaya.github.io/post-images/1639124063294.png" alt="" loading="lazy"></li>
 </ul>
 <h3 id="三基本语法-区块元素">三，基本语法--区块元素</h3>
 <p>区块元素表示将一段内容整体融合，是其具有视觉分割性<br>
@@ -64,9 +65,24 @@
 <li>（值得一提的是，Gridead的编辑器想要实现这种效果，只需要在每句话前面都加上“&gt;加空格”，不过显示效果就有些差强人意了。）</li>
 </ul>
 <h3 id="四基本语法-列表元素">四，基本语法--列表元素</h3>
-<p>（列表元素分为以及列表和二级列表)<br>
+<p>1.无序列表（可以使用三种字符，效果都一样，这里我用*演示。)<br>
+（分为一级列表和二级列表）<br>
 *加空格 文字 代表 一级列表<br>
-*加空格加Tab键会变为二级列表（Gridea里不会变为二级列表，具体操作方法未知。）</p>
+*加空格加Tab键 文字 代表 二级列表（Gridea里不会变为二级列表，具体操作方法未知。）<br>
+<strong>正常显示效果</strong><br>
+<img src="https://gexiaya.github.io/post-images/1639124256276.png" alt="" loading="lazy"><br>
+Gridea显示效果为：</p>
+<ul>
+<li>一级列表
+<ul>
+<li>二级列表<br>
+2.有序列表（额，，）<br>
+1.懂<br>
+2.了<br>
+3.吗</li>
+</ul>
+</li>
+</ul>
 <p>###五，基本语法--代码区块<br>
 代码区块就是为代码进行安排独立的区域块，根据不同的编程语言显示不同的高亮</p>
 <ul>
@@ -79,7 +95,7 @@
 </ul>
 <p>java语言：</p>
 <p>int a = 10;<br>
-int b =20;<br>
+int b = 20;<br>
 int sum = a + b;<br>
 System.out.println</p>
 <p>python语言：</p>
@@ -95,7 +111,7 @@ printf(sum)；</p>
 <p>加入代码区块的显示效果：</p>
 <p>java语言：</p>
 <pre><code class="language-java">int a = 10;
-int b =20;
+int b = 20;
 int sum = a + b;
 System.out.println
 </code></pre>
@@ -112,8 +128,63 @@ int sun = sum1 + sum2;
 printf(sum)；
 </code></pre>
 <ul>
-<li>（有意思的是，这种输入方式在Grida种也不支持，我放张图片你自己感受一下，应该不难理解。)</li>
+<li>（有意思的是，这种输入方式在Grida中也不支持，但我找到了它所支持的，放张图片你自己感受一下，应该不难理解。)<br>
+<img src="https://gexiaya.github.io/post-images/1639124358361.png" alt="" loading="lazy"></li>
 </ul>
+<h3 id="六高级语法-分割线">六，高级语法--分割线</h3>
+<p>分割线可以使用三种符号（*和_和-），效果都是一样的。<br>
+***加空格<br>
+___加空格<br>
+---加空格<br>
+显示效果：<br>
+<img src="https://gexiaya.github.io/post-images/1639124106784.png" alt="" loading="lazy"><br>
+（是的，它不支持，哈哈哈哈哈）</p>
+<h3 id="七高级语法-超链接">七，高级语法--超链接</h3>
+<p>1.行内式（常用）<br>
+格式：[超链接的名字](具体的url'网址')<br>
+输入方法：[阁下的博客](https://blog.gexia.tk)<br>
+显示效果：<a href="https://blog.gexia.tk">阁下的博客</a><br>
+<strong>是不是很简单？</strong><br>
+2.参考式（用于网址在文章中需要频繁使用时，节省出手敲网址的时间）<br>
+格式：<br>
+第一步：起一个名字表示一个网址<br>
+[别名]：具体的地址<br>
+第二步：使用刚刚起的名字<br>
+[使用的地方][别名]<br>
+输入方式：<br>
+[查阅]:https://www.baidu.com<br>
+上面这条为你的参考网址以及它的姓名，下次你要用的时候直接写他姓名就可以了。<br>
+我想[吃饭][查阅]啊啊啊啊啊啊啊啊啊啊啊啊<br>
+我想[睡觉][查阅]啊啊啊啊啊啊啊啊啊啊啊啊<br>
+我想[打游戏][查阅]啊啊啊啊啊啊啊啊啊啊啊<br>
+显示效果：<br>
+<img src="https://gexiaya.github.io/post-images/1639124142912.png" alt="" loading="lazy"></p>
+<h3 id="八高级语法-图片gridea不支持这种最后面我会附加上它支持的">八，高级语法--图片（Gridea不支持这种，最后面我会附加上它支持的。）</h3>
+<p>1.行内式（常用）<br>
+格式：<br>
+![图片的名字](图片的地址)<br>
+输入方式：<br>
+![阁下的图标](F:\图片资料\阁下（原）.jpg)<br>
+显示效果：<br>
+<img src="https://gexiaya.github.io/post-images/1639124432426.png" alt="" loading="lazy"><br>
+2.参考式：<br>
+格式：<br>
+第一步：起一个名字表示一个地址<br>
+[别名]：具体的地址<br>
+第二步：使用刚刚起的名字<br>
+![使用的地方][别名]<br>
+输入方式:<br>
+[动漫]:F:\图片资料\阁下（原）.jpg<br>
+老规矩，这就是名字和身份证。要用的时候用名字就行。<br>
+我想看![雏田][动漫]啊啊啊啊啊啊啊啊啊啊啊啊啊啊<br>
+我想看![井野][动漫]啊啊啊啊啊啊啊啊啊啊啊啊啊啊<br>
+我想看![天天][动漫]啊啊啊啊啊啊啊啊啊啊啊啊啊啊<br>
+显示效果：<br>
+<img src="https://gexiaya.github.io/post-images/1639123786629.png" alt="" loading="lazy"></p>
+<h4 id="但是在gridea中这个操作被简单化了-我们只需要选择你想插入图片的位置把鼠标放到右边有个插入图片选择确定就可以啦">但是在Gridea中，这个操作被简单化了。我们只需要选择你想插入图片的位置，把鼠标放到右边有个插入图片，选择确定就可以啦。</h4>
+<p>###至此，Markdown 语法基础教程算是结束了。原看到这篇文章的每个人都能把这些东西学会，并运用的得心应手。<br>
+###好啦~废话不多说啦<br>
+###我是阁下<sub>脸厚心黑</sub></p>
 ]]></content>
     </entry>
     <entry>
