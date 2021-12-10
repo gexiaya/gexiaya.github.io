@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gexiaya.github.io</id>
     <title>阁下脸厚心黑</title>
-    <updated>2021-12-10T08:23:42.728Z</updated>
+    <updated>2021-12-10T08:26:20.360Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gexiaya.github.io"/>
     <link rel="self" href="https://gexiaya.github.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://gexiaya.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 阁下脸厚心黑</rights>
     <entry>
-        <title type="html"><![CDATA[Markdown 语法（从入门到入土）]]></title>
+        <title type="html"><![CDATA[小白必学！Markdown 语法（从入门到入土）]]></title>
         <id>https://gexiaya.github.io/post/biao-ti/</id>
         <link href="https://gexiaya.github.io/post/biao-ti/">
         </link>
