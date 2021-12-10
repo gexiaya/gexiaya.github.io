@@ -8,7 +8,7 @@
 <meta name="description" content="阁下的小窝~">
 <meta name="theme-color" content="#000">
 <title>Markdown 语法（从入门到入土） | 阁下脸厚心黑</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1639108213662">
+<link rel="shortcut icon" href="/favicon.ico?v=1639115684703">
 <link rel="stylesheet" href="/styles/main.css">
 <link rel="stylesheet" href="/media/css/gemini.css">
 
@@ -199,9 +199,9 @@
 <li>
 <ul>
 <li><a href="#%E4%B8%80%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95-%E5%BC%BA%E8%B0%83%E5%85%83%E7%B4%A0%E5%AD%97%E4%BD%93%E7%9A%84%E5%80%BE%E6%96%9C%E4%B8%8E%E5%8A%A0%E7%B2%97">一，基本语法--强调元素（字体的倾斜与加粗）</a></li>
-<li><a href="#%E4%BA%8C%E6%A0%87%E9%A2%98%E7%9A%84%E4%BD%BF%E7%94%A8">二，标题的使用</a></li>
+<li><a href="#%E4%BA%8C%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95-%E6%A0%87%E9%A2%98%E5%85%83%E7%B4%A0">二，基本语法--标题元素</a></li>
 <li><a href="#%E4%B8%89%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95-%E5%8C%BA%E5%9D%97%E5%85%83%E7%B4%A0">三，基本语法--区块元素</a></li>
-<li><a href="#%E5%9B%9B">四，</a></li>
+<li><a href="#%E5%9B%9B%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95-%E5%88%97%E8%A1%A8%E5%85%83%E7%B4%A0">四，基本语法--列表元素</a></li>
 </ul>
 </li>
 </ul>
@@ -473,12 +473,12 @@ window.addEventListener('load', function() {
     
     <span class="meta-item">
       <i class="fa fa-clock-o"></i>
-      <span>2分钟</span>
+      <span>4分钟</span>
     </span>
     <span class="meta-item">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-file-word-o"></i>
-      <span>530<span class="pc-show">字数</span></span>
+      <span>853<span class="pc-show">字数</span></span>
     </span>
     
       <span id="/post/biao-ti/" class="meta-item pc-show leancloud_visitors">
@@ -502,7 +502,7 @@ window.addEventListener('load', function() {
 <li>额外补习一个：<br>
 ~~文字~~ 代表 <s>给文字添加删除线</s></li>
 </ul>
-<h3 id="二标题的使用">二，标题的使用</h3>
+<h3 id="二基本语法-标题元素">二，基本语法--标题元素</h3>
 <p>标题共分为六种格式（没有七号标题，只有h1--h6)：<br>
 1.第一种方法（ # 与文字之间添加一个空格，不然没效果）：<br>
 # 文字  为一号标题<br>
@@ -537,7 +537,57 @@ window.addEventListener('load', function() {
 <ul>
 <li>（值得一提的是，Gridead的编辑器想要实现这种效果，只需要在每句话前面都加上“&gt;加空格”，不过显示效果就有些差强人意了。）</li>
 </ul>
-<h3 id="四">四，</h3>
+<h3 id="四基本语法-列表元素">四，基本语法--列表元素</h3>
+<p>（列表元素分为以及列表和二级列表)<br>
+*加空格 文字 代表 一级列表<br>
+*加空格加Tab键会变为二级列表（Gridea里不会变为二级列表，具体操作方法未知。）</p>
+<p>###五，基本语法--代码区块<br>
+代码区块就是为代码进行安排独立的区域块，根据不同的编程语言显示不同的高亮</p>
+<ul>
+<li>
+<p>我们所用的符号是```加空格（这三个点是键盘上数字1旁边的那个按键，我们要在英文的状态下点击三次,然后回车，将代码复制进去，在右下角的框中输入我们的编程语言就可以啦。）</p>
+</li>
+<li>
+<p>正常输入：</p>
+</li>
+</ul>
+<p>java语言：</p>
+<p>int a = 10;<br>
+int b =20;<br>
+int sum = a + b;<br>
+System.out.println</p>
+<p>python语言：</p>
+<p>num1 = 10;<br>
+num2 = 20;<br>
+sum = sum1 + sum2;<br>
+print(sun);</p>
+<p>c语言：</p>
+<p>\int num1 = 10;<br>
+int num2 = 20；<br>
+int sun = sum1 + sum2;<br>
+printf(sum)；</p>
+<p>加入代码区块的显示效果：</p>
+<p>java语言：</p>
+<pre><code class="language-java">int a = 10;
+int b =20;
+int sum = a + b;
+System.out.println
+</code></pre>
+<p>python语言：</p>
+<pre><code class="language-python">num1 = 10;
+num2 = 20;
+sum = sum1 + sum2;
+print(sun);
+</code></pre>
+<p>c语言：</p>
+<pre><code class="language-c">\int num1 = 10;
+int num2 = 20；
+int sun = sum1 + sum2;
+printf(sum)；
+</code></pre>
+<ul>
+<li>（有意思的是，这种输入方式在Grida种也不支持，我放张图片你自己感受一下，应该不难理解。)</li>
+</ul>
 
               </div>
               <div class="post-footer">
