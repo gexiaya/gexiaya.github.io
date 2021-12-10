@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gexiaya.github.io</id>
     <title>阁下脸厚心黑</title>
-    <updated>2021-12-09T10:33:57.373Z</updated>
+    <updated>2021-12-10T03:49:12.022Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gexiaya.github.io"/>
     <link rel="self" href="https://gexiaya.github.io/atom.xml"/>
@@ -11,18 +11,59 @@
     <icon>https://gexiaya.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 阁下脸厚心黑</rights>
     <entry>
-        <title type="html"><![CDATA[Cmd Markdown 语法（从入门到入土）]]></title>
+        <title type="html"><![CDATA[Markdown 语法（从入门到入土）]]></title>
         <id>https://gexiaya.github.io/post/biao-ti/</id>
         <link href="https://gexiaya.github.io/post/biao-ti/">
         </link>
         <updated>2021-12-09T08:44:28.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="markdown是一种轻量级标记语言-其根据使用平台不同功能和用法会存在些许差异如果你在使用中感觉不对别问问就是不支持-但是在gridea里肯定是为了方便我们撰写博客啊-虽然有编辑器但这门语法本身就不难我们学在手里何乐而不为呢废话不多说我们进入教程~~~~~~">Markdown是一种轻量级标记语言。其根据使用平台不同，功能和用法会存在些许差异，如果你在使用中感觉不对，别问，问就是不支持。<br>
-但是在Gridea里，肯定是为了方便我们撰写博客啊。虽然有编辑器，但这门语法本身就不难，我们学在手里，何乐而不为呢？<br>
-废话不多说，我们进入教程~~~~~~</h2>
-<h3 id="一字体的加斜加粗">一，字体的加斜加粗</h3>
-<p>*文字* 代表 <em>斜体</em><br>
+        <content type="html"><![CDATA[<p><strong>Markdown是一种轻量级标记语言。其根据使用平台不同，功能和用法会存在些许差异，如果你在使用中感觉不对，别问，问就是不支持。</strong><br>
+<strong>但是在Gridea里，肯定是为了方便我们撰写博客啊。虽然有编辑器，但这都算旁门左道，你掌握了一种编辑器的食用方法，万一别的平台不认呢？而且这门语法本身也不是很难，我们学在手里，何乐而不为呢？</strong><br>
+<strong>废话不多说，我们进入教程</strong>~~~~~~</p>
+<h3 id="一基本语法-强调元素字体的倾斜与加粗">一，基本语法--强调元素（字体的倾斜与加粗）</h3>
+<ul>
+<li>这个元素可以使用两种符号，*和_（下划线），效果和用法都是一样的，我就用*演示了。<br>
+*文字* 代表 <em>斜体</em><br>
 **文字**  代表 <strong>粗体</strong><br>
-***文字***  代表 我都要</p>
+***文字***  代表 我都要</li>
+<li>额外补习一个：<br>
+~~文字~~ 代表 <s>给文字添加删除线</s></li>
+</ul>
+<h3 id="二标题的使用">二，标题的使用</h3>
+<p>标题共分为六种格式（没有七号标题，只有h1--h6)：<br>
+1.第一种方法（ # 与文字之间添加一个空格，不然没效果）：<br>
+# 文字  为一号标题<br>
+## 文字 为二号标题<br>
+### 文字 为三号标题<br>
+#### 文字 为四号标题<br>
+##### 文字 为五号标题<br>
+###### 文字 为六号标题</p>
+<ul>
+<li>具体显示效果如下：</li>
+</ul>
+<h3 id="三基本语法-区块元素">三，基本语法--区块元素</h3>
+<p>区块元素表示将一段内容整体融合，是其具有视觉分割性<br>
+这个元素只用到一个符号   &gt;<br>
+具体的用法为：</p>
+<ul>
+<li>不第后赋菊~~黄巢<br>
+（此处打一个 &gt;加空格，然后把下面的诗句复制进去就好啦。）<br>
+待到秋来九月八，<br>
+我花开后百花杀。<br>
+冲天香阵透长安，<br>
+满城尽带黄金甲。<br>
+具体显示效果如下：</li>
+<li>不第后赋菊~~黄巢</li>
+</ul>
+<blockquote>
+<p>待到秋来九月八，<br>
+我花开后百花杀。<br>
+冲天香阵透长安，<br>
+满城尽带黄金甲。</p>
+</blockquote>
+<ul>
+<li>（值得一提的是，Gridead的编辑器想要实现这种效果，只需要在每句话前面都加上“&gt;加空格”，不过显示效果就有些差强人意了。）</li>
+</ul>
+<h3 id="四">四，</h3>
 ]]></content>
     </entry>
     <entry>
