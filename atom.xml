@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gexiaya.github.io</id>
     <title>阁下脸厚心黑</title>
-    <updated>2021-12-10T09:01:43.020Z</updated>
+    <updated>2021-12-11T00:47:05.085Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gexiaya.github.io"/>
     <link rel="self" href="https://gexiaya.github.io/atom.xml"/>
@@ -42,7 +42,7 @@
 <img src="https://gexiaya.github.io/post-images/1639124063294.png" alt="" loading="lazy"></li>
 </ul>
 <h3 id="三基本语法-区块元素">三，基本语法--区块元素</h3>
-<p>区块元素表示将一段内容整体融合，是其具有视觉分割性<br>
+<p>区块元素表示将一段内容整体融合，使其具有视觉分割性<br>
 这个元素只用到一个符号   &gt;<br>
 具体的用法为：</p>
 <ul>
@@ -75,14 +75,14 @@ Gridea显示效果为：</p>
 <ul>
 <li>一级列表
 <ul>
-<li>二级列表<br>
-2.有序列表（额，，）<br>
-1.懂<br>
-2.了<br>
-3.吗</li>
+<li>二级列表</li>
 </ul>
 </li>
 </ul>
+<p>2.有序列表（额，，）<br>
+1.懂<br>
+2.了<br>
+3.吗</p>
 <p>###五，基本语法--代码区块<br>
 代码区块就是为代码进行安排独立的区域块，根据不同的编程语言显示不同的高亮</p>
 <ul>
